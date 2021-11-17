@@ -1,3 +1,5 @@
+
+import Swal from 'sweetalert2'
 const initialState = {
     
      characters: [],
@@ -28,11 +30,16 @@ const initialState = {
       return {
         ...state,
         characters: api,
-        characterFavorite: api, 
+       /*  characterFavorite: api, */ 
       };
 
       case "REMOVE_CHARACTER":
-        console.log("llegaaaa")
+        Swal.fire({
+          title: 'The character was deleted',
+          text: 'Do you want to continue',
+          icon: 'success',
+          confirmButtonText: 'Cool'
+        })
         return {
           ...state,
           characters: state.characters.filter(e => e.id !== action.payload)
@@ -47,7 +54,7 @@ const initialState = {
       };
  
          case "GET_NAME_CHARACTER":
-
+       
           
           const nameCharacter= payload.map((e) => {
             
@@ -89,6 +96,12 @@ const initialState = {
           }
           
     case "ADD_CHARACTER_FAVORITE":
+      Swal.fire({
+        title: 'The character was added to favorite',
+        text: 'Do you want to continue',
+        icon: 'success',
+        confirmButtonText: 'Cool'
+      })
       return {
         ...state,
         characterFavorite: [...state.characterFavorite, action.payload]
@@ -96,6 +109,12 @@ const initialState = {
    
       case "REMOVE_CHARACTER_FAVORITE":
         console.log("reducererer")
+        Swal.fire({
+          title: 'The character was deleted from favorite',
+          text: 'Do you want to continue',
+          icon: 'success',
+          confirmButtonText: 'Cool'
+        })
         return {
           ...state,
           characterFavorite: state.characterFavorite.filter(e => e.id !== action.payload)

@@ -73,6 +73,7 @@ export function getCharacterName(name) {
   };
 
   export function addCharacterFavorite(payload) {
+    console.log("milanesaa", payload)
     return {
       type: "ADD_CHARACTER_FAVORITE", payload
     };

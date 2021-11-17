@@ -10,12 +10,12 @@ import { IoTrashOutline } from "react-icons/io5";
 
 export default function Favorites() {
 
-
+  const dispatch = useDispatch();
   const favCharacters = useSelector(state => state.characterFavorite);
 
   console.log("global",favCharacters)
  
-   const dispatch = useDispatch(); 
+    
 
 
   return (
