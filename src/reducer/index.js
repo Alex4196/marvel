@@ -30,7 +30,7 @@ const initialState = {
       return {
         ...state,
         characters: api,
-       /*  characterFavorite: api, */ 
+      
       };
 
       case "REMOVE_CHARACTER":
@@ -75,7 +75,7 @@ const initialState = {
 
 
         case "FILTER_BY":
-          console.log("estabien")
+        
           if (action.payload.filter === 'comics') {
             return {
                 ...state,
@@ -108,7 +108,7 @@ const initialState = {
       };
    
       case "REMOVE_CHARACTER_FAVORITE":
-        console.log("reducererer")
+        
         Swal.fire({
           title: 'The character was deleted from favorite',
           text: 'Do you want to continue',
