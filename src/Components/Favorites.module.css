@@ -1,0 +1,107 @@
+
+
+  .title {
+    color: rgb(7, 0, 0);
+    font-family: "Amatic SC" ;
+    font-size:60px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    font-variant: small-caps;
+    transform: lowercase;
+    display: flex;
+    justify-content: center;
+    text-decoration-line:none;
+}
+.home{
+  font-size: 2.2em;
+
+
+}
+
+.home:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(248, 3, 3);
+  transition: 0.100s;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  padding: 10px;
+  margin-left: 5%;
+  margin-top: 0%;
+  justify-content: center;
+  text-decoration: none;
+
+}
+  .box{
+ text-decoration-line: none;
+   width: 220px;
+  height: 270px;
+  background-color: #ffffffa4;
+  margin-left: 20px;
+  margin-top: 150px;
+  border-radius: 0.9rem;
+  backdrop-filter: blur(4px);
+  margin:10px;
+  margin-left: 55px; 
+  text-align:center; 
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  
+}   
+
+ .box:hover {
+  background-color:rgba(238, 22, 22, 0.541);
+  color: rgba(0, 0, 0, 0.568);
+  transition: 0.100s;
+  margin-top: -0.5em;
+}
+ 
+
+.boton1 {
+  width: 35px;
+  height: 30px;
+  border: 1px solid #080808;
+  background: #fa0404b9;
+  text-align: center;
+  color:rgb(14, 14, 13);
+  /* border-radius: 0 5px 5px 0; */
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 3px solid white ;
+ margin-top:100%;
+  margin-left: -80%;
+  position: absolute;
+  border-radius:40%;
+}
+
+.name {
+  height: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration-line:none ;
+    font-family: 'Caveat';
+    letter-spacing: 1.8px;
+    font-size: medium;
+    margin-top: 120px;
+    color: black;
+}      
+
+.img {
+  text-decoration: none;
+  border-radius: 30px; 
+  width: 100px; 
+  height:100px;
+ 
+  }
+
+  .imagen{
+    margin-top: -190px;
+  }
+
+ 

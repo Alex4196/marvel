@@ -1,0 +1,159 @@
+.container {
+    text-align:center; 
+  display: flex;
+  flex-direction:center;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(
+    'https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+   */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amatic+SC&family=Caveat&family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat&family=Lobster&display=swap');
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  padding: 10px;
+  margin-left: 5%;
+  margin-top: 0%;
+  justify-content: center;
+  text-decoration: none;
+}
+  .box{
+ text-decoration-line: none;
+   width: 220px;
+  height: 270px;
+  background-color: #ffffffa4;
+  margin-left: 20px;
+  margin-top: 150px;
+  border-radius: 0.9rem;
+  backdrop-filter: blur(4px);
+  margin:10px;
+  margin-left: 55px; 
+  text-align:center; 
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}   
+
+ .box:hover {
+  background-color:rgba(238, 22, 22, 0.541);
+  color: rgba(0, 0, 0, 0.568);
+  transition: 0.100s;
+  margin-top: -0.5em;
+}
+ 
+.boton {
+  width: 35px;
+  height: 30px;
+  border: 1px solid #080808;
+  background: #fa0404b9;
+  text-align: center;
+  color:rgb(14, 14, 13);
+  /* border-radius: 0 5px 5px 0; */
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 3px solid white ;
+ margin-top:100%;
+  margin-left: 80%;
+  position: absolute;
+  border-radius:40%;
+}
+
+.boton1 {
+  width: 35px;
+  height: 30px;
+  border: 1px solid #080808;
+  background: #fa0404b9;
+  text-align: center;
+  color:rgb(14, 14, 13);
+  /* border-radius: 0 5px 5px 0; */
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 3px solid white ;
+ margin-top:100%;
+  margin-left: -80%;
+  position: absolute;
+  border-radius:40%;
+}
+
+.name {
+  height: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration-line:none ;
+    font-family: 'Caveat';
+    letter-spacing: 1.8px;
+    font-size: medium;
+    margin-top: 120px;
+    color: black;
+}      
+
+.img {
+  text-decoration: none;
+  border-radius: 30px; 
+  width: 100px; 
+  height:100px;
+ 
+  }
+
+  .imagen{
+    margin-top: -190px;
+  }
+
+  .filter {
+   
+    width: 13rem;
+    height: 2rem;
+   
+    
+}
+
+.monks{
+  position: fixed;
+  bottom: 5.5em;
+ color:rgb(252, 5, 5) ;
+ border: 3px solid rgba(3, 3, 3, 0.692);
+ font-size: 35px;
+ transform: rotate(270deg);
+ background-color: #080808b2;
+ margin-left: -1200px;
+ padding: 1%;
+}
+
+  @media screen and (max-width: 500px) {
+
+    .container {
+      display: flex;
+      flex-direction: wrap;
+      flex-flow: row wrap;
+      padding: 10px;
+      margin-left: 5%;
+      margin-top: 0%;
+      justify-content: center;
+      text-decoration: none;
+    }
+
+    .filter {
+   
+      width: 13rem;
+      height: 2rem;
+     margin-left: 20%;
+      
+  }
+
+  
+
+  }

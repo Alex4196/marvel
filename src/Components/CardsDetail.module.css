@@ -1,0 +1,175 @@
+
+
+
+.thecard {
+    position: absolute;
+    width:100%;
+    height: 103%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    margin-left: 50px;
+    margin-top: 2%;
+   
+
+}
+
+.thecard:hover {
+    transform: rotateY(180deg);
+    
+}
+
+.thefront{
+    position: absolute;
+    width:90%;
+    height: 100%;
+    backface-visibility: hidden;
+    background:rgba(250, 250, 250, 0.616);
+    color:rgb(0, 1, 2);
+    /* display: flex; */
+    /* flex-direction:row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+    
+    
+}
+
+.theback{
+    position: absolute;
+    width:90%;
+    height:100%;
+    backface-visibility: hidden;
+    background:rgba(250, 250, 250, 0.616);
+    color:rgb(12, 2, 1);
+    transform: rotateY(180deg);
+    margin-left: 10%;
+}
+
+
+
+.home{
+    font-size: 2.2em;
+ 
+
+}
+
+.home:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(248, 3, 3);
+    transition: 0.100s;
+    
+}
+
+.comics{
+    color: rgb(1, 0, 8);
+    font-size: 125%;
+    font-family: "Architects Daughter";
+    padding-left: 2%;
+padding-right: 2%;
+margin-left: 45rem;
+margin-top: -20rem;
+position: absolute;
+}
+
+
+
+
+.types {
+left: 50px;
+margin-left: 850px;
+margin-top: -140px;
+font-size: 25px;
+border: 3px solid black;
+
+
+
+}
+.title {
+    color: rgb(238, 108, 22);
+    /* position: absolute; */
+    left: 80% ;
+     margin-left: 150px;
+     font-family: "Allison";
+     font-size: 60px;
+}
+
+
+
+.image {
+    width:250px;
+   height:250px;
+   text-decoration: none;
+   border-radius: 40px; 
+   padding-left: 5%;
+   
+  
+}
+
+
+
+
+.copy{
+    /* position: fixed; */
+    bottom: 0em;
+     margin-left: -98%;
+     margin-top: -50%;
+     transform: rotate(270deg);
+}
+
+.column {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+.description {
+    
+    width: 50%;
+    font-size:large;
+    padding-left: 5%;
+}
+
+.name {
+    padding-left: 5%;
+}
+
+@media screen and (max-width: 500px) {
+
+  
+    .thefront{
+        position: absolute;
+        width:100%;
+        height: 150%;
+        backface-visibility: hidden;
+        background:rgba(250, 250, 250, 0.616);
+        color:rgb(0, 1, 2);
+      
+        
+        
+        
+    }
+    
+    .theback{
+        position: absolute;
+        width:100%;
+        height:180%;
+        backface-visibility: hidden;
+        background:rgba(250, 250, 250, 0.616);
+        color:rgb(12, 2, 1);
+        transform: rotateY(180deg);
+        margin-left: 10%;
+    }
+    
+    .comics{
+        color: rgb(1, 0, 8);
+        font-size: 125%;
+        font-family: "Architects Daughter";
+        padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    position: absolute;
+    }
+
+  }
+
